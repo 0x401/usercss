@@ -1,0 +1,19 @@
+#section_postbanner,
+/*首页文章列表穿插的新闻和推广*/
+.entry-cpt-news,
+.entry-cpt-xpost,
+/*首页热门*/
+#section_hot,
+/*文章内分享*/
+#socialshare,
+/*文章内推广*/
+#link1111,
+/*文章内微信*/
+.post_wechat_qr,
+/*文章内喝咖啡*/
+.donate,
+/*文章结尾推广*/
+.entry-recommend-posts
+{
+    display: none;
+}
