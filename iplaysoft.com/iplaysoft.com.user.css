@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         异次元软件
+@version      20210825.02.38
+@namespace    userstyles.world/user/0x400
+@description  安静看软件
+- 隐藏首页文章列表穿插的新闻和推广等信息
+@author       0x400
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("www.iplaysoft.com") {
 #section_postbanner,
 /*首页文章列表穿插的新闻和推广*/
 .entry-cpt-news,
@@ -16,4 +27,5 @@
 .entry-recommend-posts
 {
     display: none;
+}
 }
