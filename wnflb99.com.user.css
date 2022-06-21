@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Liunx 就该这么学
+@version      20200621
+@namespace    userstyles.world/user/0x400
+@description  
+@author       0x400
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("www.wnflb99.com") {
+div[id^="forum_rules"],
+#nv_forum > div:nth-child(14)
+{
+  display:none;
+}
+}
