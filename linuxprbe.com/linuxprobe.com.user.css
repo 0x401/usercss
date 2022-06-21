@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         Liunx 就该这么学
+@version      20210825.02.18
+@namespace    userstyles.world/user/0x400
+@description  安静读书，隐藏广告屏蔽插件漏掉的内容
+@author       0x400
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("www.linuxprobe.com") {
 #zan-bodyer > .container {
     margin: 0 140px;
   }
@@ -25,3 +35,4 @@
   .post-content p {
     font-size: 14px;
   }
+}
